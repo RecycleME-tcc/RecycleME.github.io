@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.login{
+    justify-self: center;
+    margin-top: 5vh;
+    width: 85vw;
+    height: 85vh;
+    background-color: blueviolet;
+}
+
+.login-container{
+    width: 40vw;
+    height: 100%;
+    background-color: red;
+    
+}
+    form{
+        padding-top: 30vh;
+        justify-items: center;
+    }
+    .input-nome{
+        background-color: #E8EAF7;
+    }
+    .input-email{
+        background-color: #E8EAF7;
+    }
