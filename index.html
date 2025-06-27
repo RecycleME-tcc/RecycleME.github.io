@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>RecycleMe</title>
 </head>
 <body>
     <div class="login">
         <div class="login-container">
+                <!-- Div da onda -->
+                <!--<div class="onda"></div>-->
             <form>
-                <h1>Bem vindo de volta!</h1>
+                <h1 class="welcome">Bem vindo de volta!</h1>
                 <br>
-                <p>Nome</p>
-                <input type="text" name="" class="input-nome" placeholder="Digite seu nome">
-                <br>
-                <p>Email</p>
+                <p >Email</p>
                 <input type="text" name="" class="input-email" placeholder="Digite seu Email">
                 <br>
-                <input type="checkbox" name="" id="">
+                <p>Senha</p>
+                <input type="text" name="" class="input-senha" placeholder="Digite sua senha">
+                <br>
+                <div class="lembrar">
+                <label for="lembrar">Lembre de mim</label>
+                    <input type="checkbox" name="" id="input-lembrar">
+                </div>
+                <br>
+                <input type="button" value="Entrar" class="input-entrar">
             </form>
         </div>
     </div>
